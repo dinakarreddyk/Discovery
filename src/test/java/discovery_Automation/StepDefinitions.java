@@ -67,7 +67,7 @@ public void mousehoverOnRecommendedVideos() throws Throwable {
 
 //add videos to favouirate videos
 
-@And("^user should be able to see newly added videos under  favourite videos$")
+@And("^user should be able to see newly added videos under  favorite videos$")
 public void userShouldBeAbleToSeeTheFavourite() throws Throwable
 {
 	
@@ -80,7 +80,7 @@ public void userShouldBeAbleToSeeTheFavourite() throws Throwable
 
 //verify the show title and description
 
-@And("^verify the title and descriptions of videos under favaourite matches with the recommeneded videos$")
+@And("^verify the title and descriptions of videos under favaorite matches with the recommeneded videos$")
 public void verifyTheShowTitleAndDescription() throws Throwable
 {
 	

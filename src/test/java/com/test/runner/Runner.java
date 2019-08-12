@@ -10,14 +10,10 @@ import cucumber.api.junit.Cucumber;
 	@CucumberOptions(
 			features = "src/test/resources/Feature",
 			glue={"src/test/java/discovery_Automation/StepDefinitions"},
-			tags= {"@saqw"}
+			tags= {"@AddVideos_To_Favorites"}
 			)
 
 	public class Runner {
-
-	public static void main(String[] args) {
-	//	Thread.sleep(1000);
-	}
 
 	}
 	
